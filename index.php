@@ -78,14 +78,14 @@
 					<br />						In Camera Item (81K)
 					<br />						Social Housing Act (150K)
 					<br />						2012 Long Term Care Case Mix Index (150K)
-					<br />						Voted seperately. This one voted as a pass, but has a 0K reduction? Don�t understand.
+					<br />						Voted seperately. This one voted as a pass, but has a 0K reduction? Don't understand.
 
 <br /><br />											Passed. Votes not recorded.",
 					'value' => 649000
 				);
 				$questions['operating-efficiencies'] = array(
 					'question' => "In Camera Item (1,200K)
-							<br />				Energy cost reduction � revised forecast deficit to be offset by reserve fund (100K)
+							<br />				Energy cost reduction &amp; revised forecast deficit to be offset by reserve fund (100K)
 							<br />				Reduced recycling costs at Material Recovery Facility 60k
 							<br />				In Camera Item 15k
 <br />
@@ -95,11 +95,11 @@
 				$questions['provincial-regulations'] = array(
 					'question' => "AODA- reduction  in annual budget contribution  from  S1,060,000 to 5560,000
 											This will reduce  the permanent  budget of 51,060,000  to 5560,000. The
-											newly released  requirements  from  the  prov�nce  reflect the ongoing
-											�nput of munic�palit�es  over  the  past several  years.  This  has resulted �n
-											a change to the Built Env�ronment  Standard  in that  the 
+											newly released  requirements  from  the  province  reflect the ongoing
+											input of municipalities  over  the  past several  years.  This  has resulted in
+											a change to the Built Environment  Standard  in that  the 
 											province  will
-											not require retrof�tting present infrastructure  as originally  predicted
+											not require retrofitting present infrastructure  as originally  predicted
 											and will be required for new infrastructure  therefore  Iowering the
 											original cost prediction
 
@@ -110,12 +110,12 @@
 				);
 				$questions['revenue-rationalization'] = array(
 					'question' => "<br />Vehicle& Equipment Reserve Fund contribution 500k
-						<br />			Reduction  �n internal  equipment  rental rates resulting in a reduced contribution  to the Vehicle & Equipment Reserve Fund (Fleet).  This is reviewed annually and  could change  in future  years.
+						<br />			Reduction  in internal  equipment  rental rates resulting in a reduced contribution  to the Vehicle & Equipment Reserve Fund (Fleet).  This is reviewed annually and  could change  in future  years.
 						<br /><br />			Energy Management Reserve Fund 100k
-						<br />			Elimination  of contribution  to Energy Management  Reserve Fund recognizing  that  th�re  are no planned draws against  the reserve  fund and  50.5 million  has been  allocated to the  Facility  Energy Management Cap�tal  Progr-am  from Federal  Gas Tax.
+						<br />			Elimination  of contribution  to Energy Management  Reserve Fund recognizing  that  there  are no planned draws against  the reserve  fund and  50.5 million  has been  allocated to the  Facility  Energy Management Capital  Progr-am  from Federal  Gas Tax.
 						<br /><br />			Recycling Revenue 170k
-						<br />			2012 revenue projections for recyclable  materials are  becoming  clearer. More  up-to-date  numbers suggest  an �mprovement  of between $2 and $4 per tonne  for 2072. ln addition,  Waste Diversion  Ontario funding has  increased  for  one  year  as funding  reflects the low market revenue experienced in 2009 and  2010.
-						<br /><br />			Building � subdivision revenue 45k
+						<br />			2012 revenue projections for recyclable  materials are  becoming  clearer. More  up-to-date  numbers suggest  an improvement  of between $2 and $4 per tonne  for 2072. ln addition,  Waste Diversion  Ontario funding has  increased  for  one  year  as funding  reflects the low market revenue experienced in 2009 and  2010.
+						<br /><br />			Building &amp; subdivision revenue 45k
 						<br />			No impact. Since 2012  Draft Budget  was submitted,  the  2011 actual experience  was  higher  than  anticipated.
 						<br /><br />			Parking Equipment 150k
 						<br />			One time  - utilize Parking  Reserve Fund  funding
