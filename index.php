@@ -19,9 +19,9 @@
 	<!-- Facebook Open Graph data -->
 	<meta property="og:title" content="DIY London Budget App" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://www.zoeandgavin.com/budgetapp" />
-	<meta property="og:image" content="http://www.zoeandgavin.com/budgetapp/img/logo.jpg" />
-	<meta property="og:site_name" content="DIY London Budget App" />
+	<meta property="og:url" content="http://www.zoeandgavin.com/makethecut" />
+	<meta property="og:image" content="http://www.zoeandgavin.com/makethecut/img/logo.jpg" />
+	<meta property="og:site_name" content="Make the Cut London - Budget App" />
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -64,28 +64,28 @@
 					'question' => "A matter  perta&#161;ning  to litigat&#161;on or potential  litigation  with respect  to fund&#161;ng related to local  boards  or  commissions  and  advice that is subject  to solicitor-client  privilege, including communicat&#161;ons necessry for that purpose, and for the  purpose  of providing &#161;nstructions and directions to off&#161;cers  and  employees  of the Corporat&#161;on.",
 					'value' => 896000
 				);
-				$questions['community-services']['question'] = "	Group these ones together, because they aren’t expected to negatively impact services 
+				$questions['community-services']['question'] = "	Group these ones together, because they arenï¿½t expected to negatively impact services 
 												<br />												In Camera Item (98K)
 											<br />													Fire Operating Efficiencies (73K)
 										<br />														In Camera Item (81K)
 									<br />															Social Housing Act (150K)
 								<br />																2012 Long Term Care Case Mix Index (150K)
-							<br />																	This one voted as a pass, but has a 0K reduction? Don’t understand.";
+							<br />																	This one voted as a pass, but has a 0K reduction? Donï¿½t understand.";
 				$questions['community-services'] = array(
-					'question' => "Group these ones together, because they aren’t expected to negatively impact services
+					'question' => "Group these ones together, because they arenï¿½t expected to negatively impact services
 					<br />						In Camera Item (98K)
 					<br />						Fire Operating Efficiencies (73K)
 					<br />						In Camera Item (81K)
 					<br />						Social Housing Act (150K)
 					<br />						2012 Long Term Care Case Mix Index (150K)
-					<br />						Voted seperately. This one voted as a pass, but has a 0K reduction? Don’t understand.
+					<br />						Voted seperately. This one voted as a pass, but has a 0K reduction? Donï¿½t understand.
 
 <br /><br />											Passed. Votes not recorded.",
 					'value' => 649000
 				);
 				$questions['operating-efficiencies'] = array(
 					'question' => "In Camera Item (1,200K)
-							<br />				Energy cost reduction – revised forecast deficit to be offset by reserve fund (100K)
+							<br />				Energy cost reduction ï¿½ revised forecast deficit to be offset by reserve fund (100K)
 							<br />				Reduced recycling costs at Material Recovery Facility 60k
 							<br />				In Camera Item 15k
 <br />
@@ -95,11 +95,11 @@
 				$questions['provincial-regulations'] = array(
 					'question' => "AODA- reduction  in annual budget contribution  from  S1,060,000 to 5560,000
 											This will reduce  the permanent  budget of 51,060,000  to 5560,000. The
-											newly released  requirements  from  the  prov¡nce  reflect the ongoing
-											¡nput of munic¡palit¡es  over  the  past several  years.  This  has resulted ¡n
-											a change to the Built Env¡ronment  Standard  in that  the 
+											newly released  requirements  from  the  provï¿½nce  reflect the ongoing
+											ï¿½nput of municï¿½palitï¿½es  over  the  past several  years.  This  has resulted ï¿½n
+											a change to the Built Envï¿½ronment  Standard  in that  the 
 											province  will
-											not require retrofìtting present infrastructure  as originally  predicted
+											not require retrofï¿½tting present infrastructure  as originally  predicted
 											and will be required for new infrastructure  therefore  Iowering the
 											original cost prediction
 
@@ -110,12 +110,12 @@
 				);
 				$questions['revenue-rationalization'] = array(
 					'question' => "<br />Vehicle& Equipment Reserve Fund contribution 500k
-						<br />			Reduction  ¡n internal  equipment  rental rates resulting in a reduced contribution  to the Vehicle & Equipment Reserve Fund (Fleet).  This is reviewed annually and  could change  in future  years.
+						<br />			Reduction  ï¿½n internal  equipment  rental rates resulting in a reduced contribution  to the Vehicle & Equipment Reserve Fund (Fleet).  This is reviewed annually and  could change  in future  years.
 						<br /><br />			Energy Management Reserve Fund 100k
-						<br />			Elimination  of contribution  to Energy Management  Reserve Fund recognizing  that  thère  are no planned draws against  the reserve  fund and  50.5 million  has been  allocated to the  Facility  Energy Management Cap¡tal  Progr-am  from Federal  Gas Tax.
+						<br />			Elimination  of contribution  to Energy Management  Reserve Fund recognizing  that  thï¿½re  are no planned draws against  the reserve  fund and  50.5 million  has been  allocated to the  Facility  Energy Management Capï¿½tal  Progr-am  from Federal  Gas Tax.
 						<br /><br />			Recycling Revenue 170k
-						<br />			2012 revenue projections for recyclable  materials are  becoming  clearer. More  up-to-date  numbers suggest  an Ìmprovement  of between $2 and $4 per tonne  for 2072. ln addition,  Waste Diversion  Ontario funding has  increased  for  one  year  as funding  reflects the low market revenue experienced in 2009 and  2010.
-						<br /><br />			Building – subdivision revenue 45k
+						<br />			2012 revenue projections for recyclable  materials are  becoming  clearer. More  up-to-date  numbers suggest  an ï¿½mprovement  of between $2 and $4 per tonne  for 2072. ln addition,  Waste Diversion  Ontario funding has  increased  for  one  year  as funding  reflects the low market revenue experienced in 2009 and  2010.
+						<br /><br />			Building ï¿½ subdivision revenue 45k
 						<br />			No impact. Since 2012  Draft Budget  was submitted,  the  2011 actual experience  was  higher  than  anticipated.
 						<br /><br />			Parking Equipment 150k
 						<br />			One time  - utilize Parking  Reserve Fund  funding
@@ -126,8 +126,8 @@
 					'value' => 1003000
 				);
 				$questions['grass-cutting'] = array(
-					'question' => "Reduced  grass cutting  along roadsides  will lead to reduced  aesthetics. The City will not look and feel as attractive  to existing  ãnd future business  and residents wh¡ch  may  impact economic prosperity ¡nitiatives for a strong economy. This cut rolls back 20%  of the
-											$450,000  added  in 2011 to support  improvements  roadside maintenance resulting in ¡ncreasing  the time between  service rycles and the reduced  aesthetic of our city.
+					'question' => "Reduced  grass cutting  along roadsides  will lead to reduced  aesthetics. The City will not look and feel as attractive  to existing  ï¿½nd future business  and residents whï¿½ch  may  impact economic prosperity ï¿½nitiatives for a strong economy. This cut rolls back 20%  of the
+											$450,000  added  in 2011 to support  improvements  roadside maintenance resulting in ï¿½ncreasing  the time between  service rycles and the reduced  aesthetic of our city.
 
 								<br /><br /> Vote			Failed
 								<br />			YEAS: Fontana, Swan, Henderson, Orser, Van Meerbergen, D. Brown (6)
@@ -135,10 +135,10 @@
 					'value' => 90000
 				);
 				$questions['horticultural-features'] = array(
-					'question' => "Horticulturalfeatures ¡n parks  and new  commun¡ties  will get less
-											support  and  increase  t¡me between v¡sits for service. This will result in
-											reduced  aesthetics  of various  features.  Service  levels for hortîcultural
-											features  ¡n the c¡ty will  decline incrementally  to pre  2O1O  levels.
+					'question' => "Horticulturalfeatures ï¿½n parks  and new  communï¿½ties  will get less
+											support  and  increase  tï¿½me between vï¿½sits for service. This will result in
+											reduced  aesthetics  of various  features.  Service  levels for hortï¿½cultural
+											features  ï¿½n the cï¿½ty will  decline incrementally  to pre  2O1O  levels.
 
 								<br /><br />			Vote Passed
 								<br />			YEAS:  Fontana, Swan, Henderson, Polhill, Orser, Van Meerbergen, D. Brown, White (8)
@@ -150,16 +150,16 @@
 											Currently  Parks  Operations manages  a reduced number of garbage  can
 											in parks  over  the  late fall and winter.  The service  is directed to historic
 											areas where year round service  was provided. Most park don't  have
-											w¡nter  collectìon.  Survey  of pa rk garbage  in the offseason  f¡nds that
-											the  predom¡nant waste is dog feces  and in many  locations nearby
+											wï¿½nter  collectï¿½on.  Survey  of pa rk garbage  in the offseason  fï¿½nds that
+											the  predomï¿½nant waste is dog feces  and in many  locations nearby
 											resident household waste is placed  in and by park  cans between
-											regular street  pick ups.  The service  level  ¡n winter is low with pick up
+											regular street  pick ups.  The service  level  ï¿½n winter is low with pick up
 											once  every  three to four  weeks.  This service  level  at present is
 											inadequate  leading  to overflowing  cans, cans that are very heaw  and
-											uns¡ghtly.  Garbage  will  continue to be collected at Springbank,  Gibbons
-											and V¡ctoria Park. Some parks may  see  an increase  în litter that will
-											need to be plcked  up in the spring. Residents  enjoying  this service  w¡ll
-											likely  voice  the¡r  concerns  over  this loss  which may lead to some  of the
+											unsï¿½ghtly.  Garbage  will  continue to be collected at Springbank,  Gibbons
+											and Vï¿½ctoria Park. Some parks may  see  an increase  ï¿½n litter that will
+											need to be plcked  up in the spring. Residents  enjoying  this service  wï¿½ll
+											likely  voice  theï¿½r  concerns  over  this loss  which may lead to some  of the
 											litter concerns  and requests  to reinstate the  service
 
 								<br /><br />			Vote Passed
@@ -169,15 +169,15 @@
 				);
 				$questions['daytime-arena-closures'] = array(
 					'question' => "Close all arenas until 3:30pm, except Nichols & Stronach
-											ln pr¡or  years  arena  dayt¡me hour closures  were implemented  to
+											ln prï¿½or  years  arena  daytï¿½me hour closures  were implemented  to
 											reduce  costs at single  pad arenas.  This cut expands  these closures  for
 											Monday to Fridays during  the  day to the rest ofthe arenas with  the
 											exception of Nichols  and Stronach  Arena and Community Centres.
-											Sen¡or skate,  moms  & tots programs  and school  athletic  classes  will be
-											affected.  Will result in decreased  dayt¡me  activ¡ty in family  and
+											Senï¿½or skate,  moms  & tots programs  and school  athletic  classes  will be
+											affected.  Will result in decreased  daytï¿½me  activï¿½ty in family  and
 											seniors,  reduce  neighbourhood  convenience  of use by location,
-											decreased  school  activ¡ties  and decreased  recreational  opportunities
-											for  daycare  providers.  Closure  will be daily Monday to Frìday unt¡l
+											decreased  school  activï¿½ties  and decreased  recreational  opportunities
+											for  daycare  providers.  Closure  will be daily Monday to Frï¿½day untï¿½l
 											3:30
 
 							<br /><br />				Vote Failed
@@ -186,9 +186,9 @@
 					'value' => 120000
 				);
 				$questions['community-center-hours'] = array(
-					'question' => "Reduced Commun¡ty Centre  Hours  on weekdays  (Fr¡day evenings),  Saturdays
+					'question' => "Reduced Communï¿½ty Centre  Hours  on weekdays  (Frï¿½day evenings),  Saturdays
 											(afternoons  and  evenings),  Sundays (afternoons  and  evenings).
-											Eliminat¡on  of free community  access support and  cancellation of some
+											Eliminatï¿½on  of free community  access support and  cancellation of some
 											drop-in  programs.
 
 								<br /><br />			Vote Failed
@@ -197,25 +197,25 @@
 					'value' => 64000
 				);
 				$questions['outdoor-aquatics'] = array(
-					'question' => "Overall  service  reduction  in outdoor aquatics: Closure  of park  site  wadîng  pools;
-											Even¡ng  closures  at three  outdoor  pools.
+					'question' => "Overall  service  reduction  in outdoor aquatics: Closure  of park  site  wadï¿½ng  pools;
+											Evenï¿½ng  closures  at three  outdoor  pools.
 											Closure  of Park  Site Wading Pools (50%  of pools,  16%  of bather use)
-											(University  He¡ghts, Murray,  Byron,  Smith, and Silverwoods.  This will
+											(University  Heï¿½ghts, Murray,  Byron,  Smith, and Silverwoods.  This will
 											affect  a small number of users (2733)  across the 5 wading pools.  These
-											are  low utilizat¡on  pools  that are nearing  the end  of their useful life and
-											will need  capital repa¡rs.  Elimination of wading pools  is noted ¡n the
+											are  low utilizatï¿½on  pools  that are nearing  the end  of their useful life and
+											will need  capital repaï¿½rs.  Elimination of wading pools  is noted ï¿½n the
 											Master plan  and aquatic reports  in the  past. New  spray  pad investment
-											and  limited  number of days available  all ¡mpact  use the  use of wading
-											pools.  Addit¡onal  Board  of Health requirements  w¡ll increase future
-											operational  costs.  Closure  of these last wad¡ng  pools will avoid  capita¡
+											and  limited  number of days available  all ï¿½mpact  use the  use of wading
+											pools.  Additï¿½onal  Board  of Health requirements  wï¿½ll increase future
+											operational  costs.  Closure  of these last wadï¿½ng  pools will avoid  capitaï¿½
 											and increased  operating  costs  in future  years.
 							<br /><br />				Evening  closures  at three  unheated  pools  (Northridge,  Byron,
 											Southcrest)  These three  pools  are  not heated and  have low evening
 											use. Coverage  can be provided  by attending  at the closest  heated pool.
-											This will result in the cancellation  of recreational  swims.  Fam¡ly pass
+											This will result in the cancellation  of recreational  swims.  Famï¿½ly pass
 											purchases  could be affected  as families may  not want to be limited to
-											afternoon  and weekend sw¡ms. While other  heated pools  are  in close
-											proximity  users may  not wish  to dr¡ve to another facil¡ty outs¡de  their
+											afternoon  and weekend swï¿½ms. While other  heated pools  are  in close
+											proximity  users may  not wish  to drï¿½ve to another facilï¿½ty outsï¿½de  their
 											neighbourhood.
 
 							<br /><br />				Vote Passed
@@ -224,10 +224,10 @@
 					'value' => 23000
 				);
 				$questions['veterans-memorial-parkway-project'] = array(
-					'question' => "Eliminate  serv¡ce improvement  capital 
+					'question' => "Eliminate  servï¿½ce improvement  capital 
 											project  PD 1142 - Veterans Memorial
 											Parkway  - funded  by capital levy
-											Service  lmprovement  project  reduced  thereby  reducing  capita¡  lew
+											Service  lmprovement  project  reduced  thereby  reducing  capitaï¿½  lew
 
 							<br /><br />				Vote Failed
 							<br />				YEAS:  Swan, Henderson, Orser, Van Meerbergen (4)
@@ -235,10 +235,10 @@
 					'value' => 100000
 				);
 				$questions['snow-control'] = array(
-					'question' => "Snow  control  budget  - reduce  2012 growth ênd maintain at 2011  budget - risk to be
-											m¡t¡gated  by severe weather  reserve  fund
-											Risk of using Severe Weather  Reserve Fund to a greater extent ¡n order
-											to meet M¡n¡mum Maintenance Standards.  A review of the service  in
+					'question' => "Snow  control  budget  - reduce  2012 growth ï¿½nd maintain at 2011  budget - risk to be
+											mï¿½tï¿½gated  by severe weather  reserve  fund
+											Risk of using Severe Weather  Reserve Fund to a greater extent ï¿½n order
+											to meet Mï¿½nï¿½mum Maintenance Standards.  A review of the service  in
 											2012 will  establish opportunities  and risks  for this service.
 
 								<br /><br />			Vote Failed
@@ -265,7 +265,7 @@
 				
 				$questions['waste-management'] = array(
 					'question' => "Growth in 2012 budget for waste management services. 
-											Some to medium  impact on the  public  anticipêted. Sign¡ficant
+											Some to medium  impact on the  public  anticipï¿½ted. Signï¿½ficant
 											optimization  and  efficiency activities  in waste management services
 											will be required to make  up for the remainder of the reduction  in
 											growth  dollars.  Will  also rely  on favourable  weather  conditions.
@@ -295,10 +295,10 @@
 					'value' => 35000
 				);
 				$questions['in-camera'] = array(
-					'question' => "A matter  pertaining to labour relations and  employee negot¡ations,
-											personal information  about ident¡fi  able  individuals, ¡nclud¡ng  municipal
+					'question' => "A matter  pertaining to labour relations and  employee negotï¿½ations,
+											personal information  about identï¿½fi  able  individuals, ï¿½ncludï¿½ng  municipal
 											employees,  with respect  to employment  related-matters,  advice  or
-											recommendations  of officers and  employees  ofthe Corporat¡on
+											recommendations  of officers and  employees  ofthe Corporatï¿½on
 											including communications  neccessary for that purpose,  and for the
 											purpose  of providing instructions  and  directions to officers and
 											employees  of the Corporation.
@@ -309,10 +309,10 @@
 					'value' => 400000
 				);
 				$questions['in-camera-ii'] = array(
-					'question' => "A matter  perta¡ning  to labour relations with respect  to employment
-											related-mattert  adv¡ce or recommendations  of officers and  employees
+					'question' => "A matter  pertaï¿½ning  to labour relations with respect  to employment
+											related-mattert  advï¿½ce or recommendations  of officers and  employees
 											of the Corporation  including communications  necessary for that
-											purpose,  and for the  purpose  of providing  instructîons and directions to
+											purpose,  and for the  purpose  of providing  instructï¿½ons and directions to
 											officers and employees  of the Corporation.
 
 								<br /><br />			Vote Passed
@@ -368,7 +368,7 @@
 					'question' => "A matter  pertaining to labour relations and  employee negotiations,
 											personal  information  about  identifiable  individuals, including municipal
 											employees,  with respect  to employment  related-matters,  advice  or
-											recommendations  of offìcers and employees  ofthe Corporation
+											recommendations  of offï¿½cers and employees  ofthe Corporation
 											including communications  necessary for that purpose,  and for the
 											purpose  of providing instructions  and directions to officers and
 											employees  of the Corporation. 1M suggested cut, 1.5M approved.
@@ -379,7 +379,7 @@
 					'value' => 1500000
 				);
 				$questions['affordable-housing-reserve'] = array(
-					'question' => "Reduce annual contribution fo New Affordable Housing Reserve from $2m to $1M. Reduction in annual contribution will reduce the City’s contribution towards the creation of new affordable housing units. 
+					'question' => "Reduce annual contribution fo New Affordable Housing Reserve from $2m to $1M. Reduction in annual contribution will reduce the Cityï¿½s contribution towards the creation of new affordable housing units. 
 											<br /><br />Vote Passed
 										<br />	YEAS: Fontana, Swan, Henderson, Polhill, Orser, Van Meerbergen, D. Brown, White (8)
 								<br />			NAYS: Branscombe, Bryant, Baechler, M. Brown, Hubert, Usher, Armstrong (7)",
@@ -387,11 +387,11 @@
 				);
 				$questions['in-camera-transportation-services'] = array(
 					'question' => "A matter  pertainingto  labour relations and  employee negotiations,  (100)
-											personal  information  about identif¡able  individuals, including municipal
+											personal  information  about identifï¿½able  individuals, including municipal
 											employees,  with respect  to employment  related-matters,  advice  or
 											recommendations  of officers and employees  ofthe Corporation
-											¡nclud¡ng  commun¡cat¡ons  necessary for that purpose,  and for the
-											purpose of provid¡ng  instructions  and  directions to officers and
+											ï¿½ncludï¿½ng  communï¿½catï¿½ons  necessary for that purpose,  and for the
+											purpose of providï¿½ng  instructions  and  directions to officers and
 											employees  of the Corporation.
 
 											<br /><br />Vote Passed
