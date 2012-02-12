@@ -2,8 +2,8 @@ Copy config.template into a new config.php file. Enter your database credentials
 
 Create the following table in your database:
 
-DROP TABLE IF EXISTS `makethecut`.`choicelog`;
-CREATE TABLE  `makethecut`.`choicelog` (
+DROP TABLE IF EXISTS `choicelog`;
+CREATE TABLE  `choicelog` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ip` varchar(45) NOT NULL,
   `question` varchar(500) NOT NULL,
