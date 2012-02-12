@@ -45,14 +45,14 @@
 <body>
   <div id="container">
 		<header>
-			<h1 onClick="_gaq.push(['_trackEvent', 'general', 'header']);">Do it yourself - London - 2011 Budget App</h1>
+			<h1 onClick="choicelog('general', 'header');">Do it yourself - London - 2011 Budget App</h1>
 			<?php 
 			/*
 			 *		facing a 1.46% tax increase
 			 *	 	average taxes paid are 2799
 			 *		tax increase of $40.8654
 			 */ ?>
-			<h2 onClick="_gaq.push(['_trackEvent', 'general', 'house']);"><img src="img/house.gif" />Average 2012 Taxes: <span>$2,840</span></h2>
+			<h2 onClick="choicelog('general', 'house');"><img src="img/house.gif" />Average 2012 Taxes: <span>$2,840</span></h2>
 		</header>
 		<div id="main" role="main">
 			<form id="quiz" name="quiz" action="" method="post">
@@ -122,8 +122,8 @@ Parking Revenue 38k
 					'value' => 1003000
 				);
 				$questions['grass-cutting'] = array(
-					'question' => "Reduced grass cutting along roadsides will lead to reduced aesthetics. The City will not look and feel as attractive to existing and future business and residents which may impact economic prosperity initiatives for a strong economy. This cut rolls back 20% of the $450,000 added in 2011 to support improvements roadside maintenance resulting in increasing the time between service cycles and the reduced aesthetic of our city."
-								<br /><br /> Vote			Failed
+					'question' => "Reduced grass cutting along roadsides will lead to reduced aesthetics. The City will not look and feel as attractive to existing and future business and residents which may impact economic prosperity initiatives for a strong economy. This cut rolls back 20% of the $450,000 added in 2011 to support improvements roadside maintenance resulting in increasing the time between service cycles and the reduced aesthetic of our city.
+								<br /><br /> Vote Failed
 								<br />			YEAS: Fontana, Swan, Henderson, Orser, Van Meerbergen, D. Brown (6)
 								<br />			NAYS: Branscombe, Bryant, Polhill, Baechler, M. Brown, Hubert, Usher, White, Armstrong (9)",
 					'value' => 90000
@@ -326,15 +326,15 @@ mitigated by severe weather reserve fund. Risk of using Severe Weather Reserve F
 					<p>Currently in development! You can help out by making suggestions in the public <a href="http://bitly.com/z2CxQs">google doc</a> or chatting with me on twitter (<a href="http://www.twiter.com/zoster">@zoster</a>)</p>
 					<p>As the unfinalized 2012 budget currently sits, it would require a tax increase of 1.46%, or a $40.87 tax increase on the average municiple tax rate of $2,799. Our city council is committed to a 0% increase for the second year in a row, and asked the Civic Administration for a list of suggested cuts to bring the budget down to a 0% increase. </p>
 					<p>Compare how you would cut the budget to how our council voted.</p>
-					<input class="start" type="radio" name="start" id="startbtn" value="start" /><label  class="increase" for="startbtn" id="start" onClick="_gaq.push(['_trackEvent', 'quiz', 'start', 'start']);" >Increase</label>
+					<input class="start" type="radio" name="start" id="startbtn" value="start" /><label  class="increase" for="startbtn" id="start" onClick="choicelog('start', 'start');" >Increase</label>
 					<br class="clear" />
 				</li>
 				<?php $i=1; foreach($questions as $key => $q): ?>
 				<li id="<?php echo $key; ?>" <?php //echo $i == 1? "class='current'" : ''; ?> ><h3><?php echo $i.". &nbsp;".ucwords(str_replace(array('-and', '-'), array('-&', ' '), $key)); echo ' - $'.number_format($q['value']); ?></h3>
 					<p><?php echo $q['question'];  $i++; ?></p>
 					<input type="hidden" name="percent<?php echo $key; ?>" id="<?php echo $key; ?>-percent" value="<?php echo $q['value']/476000000; ?>" />
-					<input class="increase" type="radio" name="<?php echo $key; ?>" id="<?php echo $key; ?>-increase" value="cut" /><label  class="increase" for="<?php echo $key; ?>-increase"  onClick="_gaq.push(['_trackEvent', 'quiz', '<?php echo $key;  ?>', 'cut']);" >Increase</label>
-					<input class="nochange" type="radio" name="<?php echo $key; ?>" id="<?php echo $key; ?>-nochange" value="keep" /><label class="nochange" for="<?php echo $key; ?>-nochange" onClick="_gaq.push(['_trackEvent', 'quiz', '<?php echo $key;  ?>', 'keep']);" >No Change</label>
+					<input class="increase" type="radio" name="<?php echo $key; ?>" id="<?php echo $key; ?>-increase" value="cut" /><label  class="increase" for="<?php echo $key; ?>-increase"  onClick="choicelog('<?php echo $key;  ?>', 'cut');" >Increase</label>
+					<input class="nochange" type="radio" name="<?php echo $key; ?>" id="<?php echo $key; ?>-nochange" value="keep" /><label class="nochange" for="<?php echo $key; ?>-nochange" onClick="choicelog('<?php echo $key;  ?>', 'keep');" >No Change</label>
 					<br class="clear" />
 				</li>
 				<?php endforeach; ?>
@@ -342,7 +342,7 @@ mitigated by severe weather reserve fund. Risk of using Severe Weather Reserve F
 
 				<h3 class="hidden summary">You didn't make the cut!</h3>
 				<?php if(isset($_GET['round']) && (int)$_GET['round'] > 0) $round = (int)$_GET['round']+1; else $round=2 ?>
-				<p class="hidden summary">You didn't acheive a 0% increase. <br />&nbsp;<br />You can <a href="http://www.zoeandgavin.com/makethecut?round=<?php echo $round; ?>" onClick="_gaq.push(['_trackEvent', 'general', 'try-again']);" >try again</a>! Or, if you don't want London to make the cuts, you should talk to your councillor before the budget is finalized on February 21st.</p>
+				<p class="hidden summary">You didn't acheive a 0% increase. <br />&nbsp;<br />You can <a href="http://www.zoeandgavin.com/makethecut?round=<?php echo $round; ?>" onClick="choicelog('general', 'try-again');" >try again</a>! Or, if you don't want London to make the cuts, you should talk to your councillor before the budget is finalized on February 21st.</p>
 				<div id="taxes">Total 2012 Tax Increase: <span>$<em id='totaltaxes'>40.87</em></span></div>
 				<br class="clear" />
 			</form>
@@ -350,7 +350,7 @@ mitigated by severe weather reserve fund. Risk of using Severe Weather Reserve F
 		<div id="fontPreload">.</div>
   </div> <!--! end of #container -->
 		<footer>
-			Copyright &copy; 2012. All Rights reserved. Created by <a href="http://flavors.me/humanbeings" onClick="_gaq.push(['_trackEvent', 'general', 'human-beings']);">human beings</a>.
+			Copyright &copy; 2012. All Rights reserved. Created by <a href="http://flavors.me/humanbeings" onClick="choicelog('general', 'human-beings');">human beings</a>.
 		</footer>
 	<!--div>
 		<div>

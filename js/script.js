@@ -50,10 +50,15 @@ function showquestion(id){
 	$("#"+id).addClass("current");	
 }
  
-
-
-
-
+function choicelog(question, choice) {
+	$.ajax({
+		url: 'database.php',
+		type: 'get',
+		data: 'action=choicelog&question='+question+'&choice='+choice,
+		success: function(msg){
+		}
+	});
+}
 
 
 
